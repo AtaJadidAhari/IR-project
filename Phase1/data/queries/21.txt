@@ -1,0 +1,19 @@
+گل
+خیار
+'''
+    #ajib boodande farsi!!! qoutation avvalo akhar jabeja hastan!
+    if 0 in qoutaton_indexes and len(query) - 1 in qoutaton_indexes:
+        
+        return qoutaton_indexes
+    if 0 in qoutaton_indexes:
+        
+        qoutaton_indexes.remove(0)
+        qoutaton_indexes.append(len(query) - 1)
+        return qoutaton_indexes
+    if len(query) - 1 in qoutaton_indexes:
+        qoutaton_indexes.remove(len(query) - 1)
+        qoutaton_indexes.append(0)
+        qoutaton_indexes.sort()
+        return qoutaton_indexes
+    return qoutaton_indexes
+    '''
